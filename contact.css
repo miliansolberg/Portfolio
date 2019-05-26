@@ -1,0 +1,148 @@
+body {
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #4440AD;
+}
+
+nav {
+    text-align: left;
+    z-index: 1;
+}
+
+nav ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+    padding-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #eee;
+    transition-duration: 200ms;
+}
+
+h1 {
+    font-size: 26px;
+    color: #fff;
+    display: grid;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 22px;
+    color: #fff;
+    display: grid;
+    justify-content: center;
+}
+
+.input {
+    padding-left: 30px;
+    line-height: 75px;
+    width: 300px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.fa-user {
+    position: relative;
+    margin-left: 10px;
+    margin-top: -56.5px;
+    color: #000;
+    opacity: 0.6;
+}
+
+.fa-phone {
+    position: relative;
+    margin-left: 10px;
+    margin-top: -56.5px;
+    color: #000;
+    opacity: 0.6;
+}
+
+.fa-envelope {
+    position: relative;
+    margin-left: 10px;
+    margin-top: -56.5px;
+    color: #000;
+    opacity: 0.6;
+}
+
+.message {
+    padding-left: 30px;
+    height: 200px;
+    width: 800px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+
+.fa-comments {
+    position: relative;
+    margin-left: 10px;
+    margin-top: -110px;
+    color: #000;
+    opacity: 0.6;
+}
+
+.container {
+    display: grid;
+    row-gap: 10px;
+    justify-content: center;
+}
+
+.container2 {
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+}
+
+.btn {
+    position: relative;
+    display: block;
+    height: 50px;
+    margin-left: 700px;
+    margin-top: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 14px 30px;
+    text-align: center;
+    z-index: 1;
+}
+
+.btn:hover {
+    transition-duration: 300ms;
+    border: 2px solid #32CD32;
+}
+
+.fa-paper-plane {
+    position: relative;
+    color: #fff;
+    margin-left: 800px;
+    margin-top: -33px;
+    opacity: 1;
+    justify-items: center;
+}
